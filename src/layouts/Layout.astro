@@ -14,12 +14,15 @@ const { title } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/fourth-summer-logo.png" />
     <title>{title} | Isnaini Nur Wahyuningsih</title>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar">
-      <a href="/" class="logo">INW<span>.</span></a>
+      <a href="/" class="logo">
+        <img src="/fourth-summer-logo.png" alt="Isnaini Nur Wahyuningsih Logo" class="logo-img" />
+      </a>
       <div class="nav-links">
         <a href="#home" class="nav-item active">Home</a>
         <a href="#experience" class="nav-item">Experience</a>
